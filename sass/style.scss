@@ -1,0 +1,19 @@
+/*
+Theme Name: lukasdanckwerth
+Theme URI: https://github.com/lukasdanckwerth/lukasdanckwerth.de-wp-theme
+Author: Lukas Danckwerth
+Author URI: https://lukasdanckwerth.de
+Version: 1.0
+Description: WordPress Theme for my personal homepage lukasdanckwerth.de
+ */
+
+// Declare variables.
+$defaultBorder: 1px solid #dadada;
+
+// Import Bootstrap,
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Theme files.
+@import "base";
+@import "footer-menu";
+@import "header-menu.scss";

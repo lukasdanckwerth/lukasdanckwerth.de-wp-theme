@@ -1,0 +1,45 @@
+.navigation-menu {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      float: left;
+      margin-right: 3px;
+    }
+
+    li a:link,
+    li a:visited {
+      display: block;
+      padding: 12px 17px;
+      border-bottom: none;
+      text-decoration: none;
+    }
+  }
+
+  ul:before,
+  ul:after {
+    content: "";
+    display: table;
+  }
+
+  ul:after {
+    clear: both;
+  }
+
+  .current-menu-item {
+    font-weight: 800;
+  }
+}
+
+nav {
+  z-index: 999;
+  margin: 0 auto;
+  border-bottom: $defaultBorder;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}

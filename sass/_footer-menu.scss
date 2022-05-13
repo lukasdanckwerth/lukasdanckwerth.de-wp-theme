@@ -1,0 +1,41 @@
+.site-footer {
+  display: inline;
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+      list-style: none;
+      margin-right: 3px;
+    }
+  }
+}
+
+.site-footer ul li::after {
+  content: " |";
+}
+
+.site-footer ul li:last-of-type::after {
+  content: "";
+}
+
+.menu-footer-container {
+  display: inline;
+}
+
+.paragraph-footer {
+  display: block;
+  text-align: center;
+
+  div {
+    display: inline;
+  }
+}
+
+.footer-row {
+  border-top: $defaultBorder;
+  padding-top: 10px;
+}
