@@ -11126,6 +11126,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+article.post {
+  border-bottom: 4px dashed #ecf0f1;
+}
+
+article.post:last-of-type {
+  border-bottom: none;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -11141,14 +11149,6 @@ a:visited {
 
 p {
   line-height: 1.7em;
-}
-
-article.post {
-  border-bottom: 4px dashed #ecf0f1;
-}
-
-article.post:last-of-type {
-  border-bottom: none;
 }
 
 .site-header {

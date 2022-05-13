@@ -1,0 +1,7 @@
+article.post {
+  border-bottom: 4px dashed #ecf0f1;
+}
+
+article.post:last-of-type {
+  border-bottom: none;
+}

@@ -2,10 +2,8 @@
     <div class="row footer-row">
         <div class="col-lg-12 paragraph-footer">
             <div>
-                Copyright ©
-                <a href="<?php get_site_url() ?>">
-                    <?php bloginfo( 'copyright' ); ?>
-                </a>
+                Copyright © <?php echo get_current_year() ?>
+                <a href="<?php echo get_site_url() ?>"> <?php bloginfo( 'copyright' ); ?> </a>| Alle Rechte vorbehalten
                 |
             </div>
             <div>

@@ -14,6 +14,7 @@ $defaultBorder: 1px solid #dadada;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Theme files.
+@import "article";
 @import "base";
 @import "footer-menu";
 @import "header-menu.scss";
